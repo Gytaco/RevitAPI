@@ -3,6 +3,12 @@
   It will then offset the floor by the floor type thickness. It is just set to the current floor for now.
 */
 
+//SPECTIAL NOTE: you need to put code in a line above the following
+//private void Module_Startup(object sender, EventArgs e)
+//That code you need to copy paste is
+public List<ElementId> changefloorheight = new List<ElementId>();
+//there are better ways to handle this but this was faster :)
+
 		public void interiorFloorByRoom()
 		{
 			//SETUP public ILIST in the CLASS!!!!
