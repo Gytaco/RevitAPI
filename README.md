@@ -9,3 +9,5 @@ This is a repository for those learning the Revit API, Revit Macros and Dynamo S
 At the moment the document should be read in conjunction with the handouts I did for RTC Australia and RTC USA, I will work out how to get this data across in an easier format.
 
 Stay tuned the initial code sets will be out soon!!!
+
+Last notice, if you plan to use any or all of this code please check out the licence conditions, they are pretty easy to abide by :)
