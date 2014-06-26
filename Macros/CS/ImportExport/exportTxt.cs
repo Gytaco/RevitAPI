@@ -10,7 +10,7 @@ using System.IO;
 			//assigns doc to the active document in use - default
 			Document doc = this.ActiveUIDocument.Document;
 			//a string that stores the files location
-			string location = @"C:\Users\Gytaco\Desktop\data.txt";
+			string location = @"C:\data.txt";
 			//creates a private IEnumerable that accepts string DataTypes only
 			IEnumerable<string> Result;
 			//creates a string list object
