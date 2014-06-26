@@ -22,10 +22,14 @@ README - A short description of what the Macro does as a Comment block, and any 
 
 Using References :- each of the using References that will be required to execute this macro that are not part of the initial Macro setup environment, you need to copy and paste these to the other "Using" references at the top of the Macro editing Environment.
 
-public void ExampleName()
-{
-  MACRO CODE IS HERE COPY/PASTE THE STUFF IN BETWEEN THESE BRACKETS ONLY!!!\n
-}
+public void ExampleName() 
+
+{ 
+
+ MACRO CODE IS HERE COPY/PASTE THE STUFF IN BETWEEN THESE BRACKETS ONLY!!! 
+ 
+} 
+
 
 The second part of the file will be the Macro code itself, you need to copy/paste the code from the code block into your own named Macro. Once this is done you should be able to close and run macro as you need to.
 
