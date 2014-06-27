@@ -8,6 +8,8 @@ This is a repository for those learning the Revit API, Revit Macros and Dynamo S
 
 At the moment the document should be read in conjunction with the handouts I did for RTC Australia and RTC USA, I will work out how to get this data across in an easier format.
 
+<b>IF THIS IS YOUR FIRST VISIT HERE GO TO THE HANDOUT FOLDER AND CHECKOUT ALL THE PDF'S AND DOCUMENTS PRIOR TO STARTING</b>
+
 Before doing anything please install the revit SDK from either the Revit installation or from online.
 
 Last notice, if you plan to use any or all of this code please check out the licence conditions, they are pretty easy to abide by :)
