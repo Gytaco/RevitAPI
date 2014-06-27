@@ -1,0 +1,5 @@
+G:\RTC2014\API\Forms\NewCommands\NewCommands\bin\Debug\NewCommands.dll
+G:\RTC2014\API\Forms\NewCommands\NewCommands\bin\Debug\NewCommands.pdb
+G:\RTC2014\API\Forms\NewCommands\NewCommands\obj\Debug\NewCommands.csprojResolveAssemblyReference.cache
+G:\RTC2014\API\Forms\NewCommands\NewCommands\obj\Debug\NewCommands.dll
+G:\RTC2014\API\Forms\NewCommands\NewCommands\obj\Debug\NewCommands.pdb
