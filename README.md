@@ -14,6 +14,8 @@ Last notice, if you plan to use any or all of this code please check out the lic
 
 Anything in here so far I have to credit [Jeremy Tammik](http://thebuildingcoder.typepad.com/) and [Harry Matthison](http://boostyourbim.wordpress.com/) as I have certainly used their code or parts of it for many of the examples listed.
 
+Also checkout Jeremy's code at https://github.com/jeremytammik/the_building_coder_samples
+
 <br>
 <br>
 <br>
