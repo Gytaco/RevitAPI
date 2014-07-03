@@ -36,9 +36,9 @@
 		'updated code gets element ids of all views and view templates except project browser, system browser and active view as these cannot be deleted
 		Dim viewCollection As list(Of ElementId) = (From v As View In New FilteredElementCollector(document).OfCategory(BuiltInCategory.OST_Views).cast(Of view)
 	  							Where v.ViewType <> ViewType.ProjectBrowser And _
-		  								v.ViewType <> ViewType.SystemBrowser And _
-		  								v.ViewType <> ViewType.Internal And _
-		  								v.Id <> document.ActiveView.id
+	  								v.ViewType <> ViewType.SystemBrowser And _
+	  								v.ViewType <> ViewType.Internal And _
+	  								v.Id <> document.ActiveView.id
 	  							Select v.id).tolist
 																		
   		
