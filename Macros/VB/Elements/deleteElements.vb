@@ -35,19 +35,19 @@
 
 		'updated code gets element ids of all views and view templates except project browser, system browser and active view as these cannot be deleted
 		Dim viewCollection As list(Of ElementId) = (From v As View In New FilteredElementCollector(document).OfCategory(BuiltInCategory.OST_Views).cast(Of view)
-					  							Where v.ViewType <> ViewType.ProjectBrowser And _
-						  								v.ViewType <> ViewType.SystemBrowser And _
-						  								v.ViewType <> ViewType.Internal And _
-						  								v.Id <> document.ActiveView.id
-					  							Select v.id).tolist
+	  							Where v.ViewType <> ViewType.ProjectBrowser And _
+		  								v.ViewType <> ViewType.SystemBrowser And _
+		  								v.ViewType <> ViewType.Internal And _
+		  								v.Id <> document.ActiveView.id
+	  							Select v.id).tolist
 																		
   		
   		'get all the view filter ids
   		Dim filteridCollection As list(Of ElementId) = (New FilteredElementCollector(document) _
-														  			.ofclass(GetType(ParameterFilterElement)) _
-														  			.WhereElementIsNotElementType _
-													  				.ToElementids()).tolist
-					
+					  			.ofclass(GetType(ParameterFilterElement)) _
+					  			.WhereElementIsNotElementType _
+				  				.ToElementids()).tolist
+
 		'Start a transaction CRITICAL without transactions Revit cannot update
   		Using rvtTransaction As New Transaction(document,"Delete all views")
   			rvtTransaction.Start()
