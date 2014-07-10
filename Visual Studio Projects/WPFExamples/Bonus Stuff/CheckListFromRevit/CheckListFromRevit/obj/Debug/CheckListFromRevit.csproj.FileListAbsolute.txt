@@ -1,0 +1,9 @@
+C:\Users\Gytaco\Documents\Visual Studio 2012\Projects\CheckListFromRevit\CheckListFromRevit\obj\Debug\CheckListFromRevit.csprojResolveAssemblyReference.cache
+C:\Users\Gytaco\Documents\Visual Studio 2012\Projects\CheckListFromRevit\CheckListFromRevit\obj\Debug\checkwindow.baml
+C:\Users\Gytaco\Documents\Visual Studio 2012\Projects\CheckListFromRevit\CheckListFromRevit\obj\Debug\checkwindow.g.cs
+C:\Users\Gytaco\Documents\Visual Studio 2012\Projects\CheckListFromRevit\CheckListFromRevit\obj\Debug\CheckListFromRevit_MarkupCompile.cache
+C:\Users\Gytaco\Documents\Visual Studio 2012\Projects\CheckListFromRevit\CheckListFromRevit\obj\Debug\CheckListFromRevit.g.resources
+C:\Users\Gytaco\Documents\Visual Studio 2012\Projects\CheckListFromRevit\CheckListFromRevit\bin\Debug\CheckListFromRevit.dll
+C:\Users\Gytaco\Documents\Visual Studio 2012\Projects\CheckListFromRevit\CheckListFromRevit\bin\Debug\CheckListFromRevit.pdb
+C:\Users\Gytaco\Documents\Visual Studio 2012\Projects\CheckListFromRevit\CheckListFromRevit\obj\Debug\CheckListFromRevit.dll
+C:\Users\Gytaco\Documents\Visual Studio 2012\Projects\CheckListFromRevit\CheckListFromRevit\obj\Debug\CheckListFromRevit.pdb
