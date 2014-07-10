@@ -1,9 +1,0 @@
-G:\RTC2014\API\Forms\Application\Application\obj\Debug\Application.csprojResolveAssemblyReference.cache
-G:\RTC2014\API\Forms\Application\Application\bin\Debug\Application.dll
-G:\RTC2014\API\Forms\Application\Application\bin\Debug\Application.pdb
-G:\RTC2014\API\Forms\Application\Application\obj\Debug\Application.dll
-G:\RTC2014\API\Forms\Application\Application\obj\Debug\Application.pdb
-G:\RTC2014\API\Forms\Application\Application\obj\Debug\UserControl1.baml
-G:\RTC2014\API\Forms\Application\Application\obj\Debug\UserControl1.g.cs
-G:\RTC2014\API\Forms\Application\Application\obj\Debug\Application_MarkupCompile.cache
-G:\RTC2014\API\Forms\Application\Application\obj\Debug\Application.g.resources
