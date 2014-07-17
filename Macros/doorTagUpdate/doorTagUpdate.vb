@@ -8,14 +8,14 @@
   		
   		'creates a Collection of the doors as FamilyInstances
   		Dim doorCollection As IEnumerable(Of FamilyInstance) = New FilteredElementCollector(document) _
-				.OfCategory(BuiltInCategory.OST_Doors) _
-				.WhereElementIsNotElementType _
-				.ToElements().Cast(Of FamilyInstance)()
+														  			.OfCategory(BuiltInCategory.OST_Doors) _
+														  			.WhereElementIsNotElementType _
+														  			.ToElements().Cast(Of FamilyInstance)()
   		
   		'Use linq to select doors that have a ToRoom Value
   		Dim doorsWithRooms As IEnumerable(Of FamilyInstance) = From fi As FamilyInstance In doorCollection
-									Where fi.ToRoom IsNot Nothing
-									Select fi
+													  			Where fi.ToRoom IsNot Nothing
+													  			Select fi
   		
   		'Start a transaction CRITICAL without transactions Revit cannot update
   		Using rvtTransaction As New Transaction(document,"Door data update")
