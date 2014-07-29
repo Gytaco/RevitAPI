@@ -11,7 +11,7 @@ Public Sub HideCropRegion()
 										.cast(Of view)
 		
 	'Start a transaction CRITICAL without transactions Revit cannot update
-	Using rvtTransaction As New Transaction(document,"comment updates")
+	Using rvtTransaction As New Transaction(document,"Hide Crop Regions")
 		rvtTransaction.Start()
 		
 
