@@ -16,34 +16,26 @@ import Autodesk
 from Autodesk.Revit.DB import *
 from Autodesk.Revit.UI import *
 
-doc = DocumentManager.Instance.CurrentDBDocument
-uiapp = DocumentManager.Instance.CurrentUIApplication
-app = uiapp.Application
+#doc = DocumentManager.Instance.CurrentDBDocument
+#uiapp = DocumentManager.Instance.CurrentUIApplication
+#app = uiapp.Application
 
-pyt_path = r'C:\Program Files (x86)\IronPython 2.7\Lib'
-sys.path.append(pyt_path)
+#pyt_path = r'C:\Program Files (x86)\IronPython 2.7\Lib'
+#sys.path.append(pyt_path)
 
-from Autodesk.DesignScript.Geometry import *
+#from Autodesk.DesignScript.Geometry import *
 
-from System import Array
-from System.Collections.Generic import *
-import math
+#from System import Array
+#from System.Collections.Generic import *
+#import math
 
 #The inputs to this node will be stored as a list in the IN variable.
 elements = IN
-ids = List[ElementId]()
+#List Example = List[ElementId]()
 
-view = doc.ActiveView
-
-for e in elements:
-	id = ElementId(e.Id)
-	ids.Add(id)
+#TransactionManager.Instance.EnsureInTransaction(doc)	
 	
-TransactionManager.Instance.EnsureInTransaction(doc)	
-	
-view.HideElements(ids)
-
-TransactionManager.Instance.TransactionTaskDone()
+#TransactionManager.Instance.TransactionTaskDone()
 
 #Assign your output to the OUT variable
 OUT = 0
